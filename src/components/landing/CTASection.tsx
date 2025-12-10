@@ -29,7 +29,7 @@ const CTASection = () => {
           </h2>
           
           <p className="text-xl opacity-90 mb-8">
-            Download AtomKids now and watch your child fall in love with science! 
+            Download AtomIQ now and watch your child fall in love with science!
             Free to start, endless fun to discover! 🌟
           </p>
           

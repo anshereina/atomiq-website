@@ -22,7 +22,7 @@ const Navbar = () => {
               <Atom className="w-8 h-8 text-primary group-hover:animate-spin-slow transition-all" />
               <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full" />
             </div>
-            <span className="text-xl font-bold text-gradient-primary">AtomKids</span>
+            <span className="text-xl font-bold text-gradient-primary">AtomIQ</span>
           </a>
 
           {/* Desktop Navigation */}

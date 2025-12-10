@@ -24,13 +24,13 @@ const Footer = () => {
 
   return (
     <footer className="bg-foreground text-primary-foreground py-16">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 max-w-7xl">
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2">
             <a href="#" className="flex items-center gap-2 mb-4">
               <Atom className="w-8 h-8 text-secondary" />
-              <span className="text-2xl font-bold">AtomKids</span>
+              <span className="text-2xl font-bold">AtomIQ</span>
             </a>
             <p className="text-primary-foreground/70 mb-6 max-w-sm">
               Making nuclear science fun and accessible for young minds around the world. 
@@ -38,8 +38,8 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-2 text-primary-foreground/70">
               <Mail className="w-4 h-4" />
-              <a href="mailto:hello@atomkids.app" className="hover:text-secondary transition-colors">
-                hello@atomkids.app
+              <a href="mailto:hello@atomiq.app" className="hover:text-secondary transition-colors">
+                hello@atomiq.app
               </a>
             </div>
           </div>
@@ -97,7 +97,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/60 text-sm">
-            © 2024 AtomKids. All rights reserved.
+            © 2024 AtomIQ. All rights reserved.
           </p>
           <p className="text-primary-foreground/60 text-sm flex items-center gap-1">
             Made with <Heart className="w-4 h-4 text-destructive fill-destructive" /> for curious kids everywhere

@@ -31,7 +31,7 @@ const HeroSection = () => {
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-secondary/20 rounded-full blur-3xl" />
       
-      <div className="container mx-auto px-4 py-20 md:py-32">
+      <div className="container mx-auto px-4 py-20 md:py-32 max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="relative z-10 text-center lg:text-left">
@@ -95,7 +95,7 @@ const HeroSection = () => {
                     <div className="w-20 h-20 bg-primary-foreground/20 rounded-3xl flex items-center justify-center mb-4 animate-bounce-soft">
                       <span className="text-4xl">⚛️</span>
                     </div>
-                    <h3 className="text-2xl font-bold text-center mb-2">AtomKids</h3>
+                    <h3 className="text-2xl font-bold text-center mb-2">AtomIQ</h3>
                     <p className="text-center text-primary-foreground/80 text-sm">
                       Explore atoms, molecules, and the amazing world of science!
                     </p>
